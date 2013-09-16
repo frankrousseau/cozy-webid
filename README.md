@@ -1,15 +1,18 @@
 # Description
 
-Cozy Template is a template project to start quickly your own application. Just
-fork it and code while focusing only on your features !
+Build and publish your webid identities with your Cozy.
 
+# Install
+ 
+Copy paste the repo URL in the app store section of your Cozy.
+ 
 # Run
 
 Clone this repository, install dependencies and run server (it requires Node.js
 and Coffee-script)
     
-    git clone git://github.com/mycozycloud/cozy-template.git
-    cd cozy-template
+    git clone git://github.com/frankrsousseau/cozy-webid.git
+    cd cozy-webid
     npm install
     coffee server
 

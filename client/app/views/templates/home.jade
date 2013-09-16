@@ -1,11 +1,7 @@
 #content
-  h1 Cozy template
+  h1 Cozy WebId
   h2 Welcome
-  ul
-    li 
-      a(href="https://github.com/mycozycloud/cozy-setup/wiki") Documentation
-    li 
-        a(href="https://github.com/mycozycloud/cozy-setup/wiki/Getting-started")
-          | Getting Started
-    li 
-      a(href="https://github.com/mycozycloud") Github
+  p
+      form(action="/webid/new", method="post")
+          keygen(id="pubkey", name="pubkey", challenge="mychallenge", keytype="rsa")
+          button#generate generate

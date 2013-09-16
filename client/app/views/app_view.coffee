@@ -8,3 +8,6 @@ module.exports = class AppView extends BaseView
     afterRender: ->
         console.log "write more code here !"
 
+        $('#generate').click =>
+
+

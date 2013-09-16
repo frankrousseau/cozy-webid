@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# This code is provided by Andrei Sambra
 
 CA_CER = '''
 -----BEGIN CERTIFICATE-----
